@@ -6,17 +6,18 @@
     <div class="container-fluid">
       <div class="level">
         <div class="level-left">
-          <div class="level-item">
+          <a href="">Edgardo Samamé</a>
+          <!-- <div class="level-item">
             <div class="footer-copyright">
               <b>&copy; {{ year }}, JustBoil.me</b>. <a
                 href="https://github.com/vikdiesel/admin-one-vue-bulma-dashboard"
                 target="_blank"
               >GitHub</a>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="level-right">
-          <div class="level-item">
+          <!-- <div class="level-item">
             <div class="logo">
               <a
                 href="https://justboil.me"
@@ -28,7 +29,7 @@
                 >
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

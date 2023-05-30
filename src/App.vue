@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <nav-bar />
-    <aside-menu :menu="menu" />
+    <!-- <aside-menu :menu="menu" />
+     -->
+    <VueSidebarMenuAkahon />
     <router-view />
     <footer-bar />
   </div>
@@ -11,14 +13,15 @@
 import { defineComponent } from 'vue'
 import menu from '@/menu.js'
 import NavBar from '@/components/NavBar.vue'
-import AsideMenu from '@/components/AsideMenu.vue'
+// import AsideMenu from '@/components/AsideMenu.vue'
 import FooterBar from '@/components/FooterBar.vue'
-
+import VueSidebarMenuAkahon from 'vue-sidebar-menu-akahon'
 export default defineComponent({
   name: 'AppComponent',
   components: {
     FooterBar,
-    AsideMenu,
+    // AsideMenu,
+    VueSidebarMenuAkahon,
     NavBar
   },
   data () {

@@ -12,8 +12,8 @@ export default [
     {
       to: '/tables',
       label: 'Tables',
-      icon: 'table',
-      updateMark: true
+      icon: 'table'
+      // updateMark: true
     },
     {
       to: '/forms',
